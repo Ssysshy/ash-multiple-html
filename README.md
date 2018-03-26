@@ -1,6 +1,6 @@
-# easywebpack-multiple-html-boilerplate
+# kikuu-multiple-html
 
-HTML静态多页面Webpack构建工程化解决方案骨架
+KIKUU静态多页面Webpack构建工程化解决方案骨架
 
 ## 特性
 
@@ -93,5 +93,6 @@ module.exports = {
   },
 }
 ```
+
 
 
