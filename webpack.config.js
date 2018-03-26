@@ -25,6 +25,7 @@ module.exports = {
     host:  'http://localhost:8888',
     match: /\/debug/
   },
+  publicPath: '',
   done() {
 
   }
