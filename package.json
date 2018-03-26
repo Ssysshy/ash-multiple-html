@@ -8,7 +8,10 @@
     "easywebpack",
     "nunjucks"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.16"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -24,9 +27,12 @@
     "easywebpack-html": "^4.0.0",
     "eslint": "^4.18.2",
     "imagemin-webpack-plugin": "^1.5.2",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
     "mocha": "^3.4.2",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6"
+    "nunjucks-html-loader": "^1.1.0",
+    "postcss-loader": "^2.1.3",
+    "vue-loader": "^14.2.2"
   },
   "scripts": {
     "build": "cross-env easy build prod",
@@ -40,14 +46,6 @@
   "ci": {
     "version": "6, 8, 9"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hubcarl/easywebpack-static-template.git"
-  },
-  "bugs": {
-    "url": "https://github.com/hubcarl/easywebpack-static-template/issues"
-  },
-  "homepage": "https://github.com/hubcarl/easywebpack-static-template#readme",
-  "author": "hubcarl@126.com",
+  "author": "foreverzrd@icloud.com",
   "license": "MIT"
 }

@@ -7,8 +7,9 @@ KIKUU静态多页面Webpack构建工程化解决方案骨架
 - 支持 HTML 静态多页面构建
 - 支持 nunjucks 模板静态多页面构建
 - 支持 Webpack 构建自动刷新功能
+- 支持 VUE 部分引入（已内置）
 - 支持 babel, es6, postcss, eslint等特性
-- 支持 css, sass, less, styus 
+- 支持 css, less（已内置）, styus 
 - 支持构建结果UI展示
 - 支持独立HTML模板和全局HTML模版
 - 支持 [easywebpack-cli](https://github.com/hubcarl/easywebpack-cli) 创建项目和构建
@@ -73,7 +74,7 @@ module.exports = {
   loaders: {
     nunjucks: {
       options: {
-        searchPaths: ['./widget', './test']  // nunjucks 模板查找目录
+        searchPaths: ['./view']  // nunjucks 模板查找目录
       }
     }
   },

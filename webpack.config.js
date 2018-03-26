@@ -11,7 +11,7 @@ module.exports = {
     jquery: 'window.$'
   },
   loaders: {
-    scss: true,
+    less: true,
     nunjucks: {
       options: {
         searchPaths: ['./widget', './test']
@@ -20,7 +20,7 @@ module.exports = {
   },
   plugins: {},
   proxy: {
-    host:  'http://localhost:8888',   
+    host:  'http://localhost:8888',
     match: /\/debug/
   },
   done() {
