@@ -1,11 +1,13 @@
 module.exports = {
   framework: 'html',
-  entry: 'src',
   devtool: 'source-map',
-  template: 'view/layout.html',
+  entry: {
+    include: 'page',
+    template: 'layout/layout.html'
+  },
   alias: {
     asset: 'asset',
-    jquery: 'asset/js/jquery-3.2.1.min.js'
+    vue: 'vue/dist/vue.js'
   },
   externals: {
     jquery: 'window.$'
@@ -14,7 +16,7 @@ module.exports = {
     less: true,
     nunjucks: {
       options: {
-        searchPaths: ['./widget', './test']
+        searchPaths: ['./view']
       }
     }
   },
