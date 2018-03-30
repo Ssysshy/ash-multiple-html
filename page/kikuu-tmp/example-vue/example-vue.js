@@ -7,7 +7,8 @@ const app = new Vue({
   components: {},
   data(){
     return {
-      data1: 'this is content of example vue'
+      data1: 'this is content of example vue',
+      dara2: '111'
     }
   },
   computed: {},
