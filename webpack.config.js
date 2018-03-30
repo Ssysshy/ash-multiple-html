@@ -31,7 +31,7 @@ module.exports = {
         match: /\/debug/,
         changeOrigin: false, //  默认false，如需要可开启
         secure: false
-      },
+      }
     }
   },
   publicPath: '',
