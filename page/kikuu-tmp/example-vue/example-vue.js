@@ -5,7 +5,7 @@ import axios from 'axios';
 const app = new Vue({
   el: '#app',
   components: {},
-  data(){
+  data() {
     return {
       data1: 'this is content of example vue',
       dara2: '111'
