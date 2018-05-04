@@ -38,6 +38,7 @@
   },
   "scripts": {
     "build": "cross-env easy build prod",
+    "build:dev": "cross-env easy build dev",
     "start": "cross-env easy server",
     "lint": "eslint .",
     "fix": "eslint --fix .",
