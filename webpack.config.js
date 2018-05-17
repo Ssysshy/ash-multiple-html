@@ -13,7 +13,7 @@ module.exports = {
     jquery: 'window.$'
   },
   loaders: {
-    less: true,   // 默认开启，如不需要泽关闭，减少编译时间
+    less: true,   // 默认开启，如果不需要则关闭，减少编译时间
     nunjucks: {
       options: {
         searchPaths: ['./view']
@@ -35,6 +35,7 @@ module.exports = {
     }
   },
   publicPath: '',
+  cdn: '',
   done() {
 
   }
