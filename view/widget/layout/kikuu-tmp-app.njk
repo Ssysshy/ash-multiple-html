@@ -1,8 +1,6 @@
 {% extends 'widget/base/kikuu-tmp-app.njk' %}
 {% block body %}
   {% include 'widget/header/kikuu-tmp-header.njk' %}
-  <div class="content">
-    {% block main %}{% endblock %}
-  </div>
+  {% block main %}{% endblock %}
   {% include 'widget/footer/kikuu-tmp-footer.njk' %}
 {% endblock %}
