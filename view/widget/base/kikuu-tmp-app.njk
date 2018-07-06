@@ -8,7 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="renderer" content="webkit">
   <meta name="viewport" content="width=device-width, maximum-scale=3, user-scalable=yes">
-  <script src="https://qiniu.kikuu.com/kikuu/static/framework/js/mobile/flexible.min.js"></script>
+  <script>
+    !function(e){function t(){var t=n.clientWidth,r="}";!navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)&&t>1024&&(t=414,r=";max-width:"+t+"px;margin-right:auto!important;margin-left:auto!important;}"),e.rem=t/10,/ZTE U930_TD/.test(navigator.userAgent)&&(e.rem=1.13*e.rem),/M351 /.test(navigator.userAgent)&&(e.rem=e.rem/1.05),i.innerHTML="html{font-size:"+e.rem+"px!important;}body{font-size:"+12*(t/320)+"px"+r;var newFt=getComputedStyle(window.document.documentElement)['font-size'].replace('px','');if(newFt!==e.rem+''){var scale = e.rem/newFt; var newRem=e.rem*scale;i.innerHTML="html{font-size:"+newRem+"px!important;}body{font-size:"+12*(t*scale/320)+"px"+r}}{var n=document.documentElement,i=document.createElement("style");n.clientWidth}n.firstElementChild.appendChild(i),e.addEventListener("resize",function(){t()},!1),e.addEventListener("pageshow",function(e){e.persisted&&t()},!1),t()}(window);
+  </script>
   {% block head %}{% endblock %}
 </head>
 <body>
