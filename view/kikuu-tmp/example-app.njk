@@ -2,6 +2,16 @@
 
 {% block main %}
   <div class="content">
-    this content of example-html
+    this content of example-app <br/>
+    <button id="btn">1111</button>
   </div>
+{% endblock %}
+
+{% block script %}
+  <script type="text/javascript" src="../../static/js/zepto.min.js"></script>
+  <script>
+    $('#btn').click(function () {
+      console.log('111');
+    })
+  </script>
 {% endblock %}

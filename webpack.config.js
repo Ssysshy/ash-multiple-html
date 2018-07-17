@@ -1,6 +1,5 @@
 module.exports = {
   framework: 'html',
-  devtool: 'source-map',
   entry: {
     include: 'page',
     template: 'layout/layout.html'
