@@ -1,2 +1,0 @@
-import './example-app.less'
-
