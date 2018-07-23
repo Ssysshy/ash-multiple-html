@@ -11,4 +11,5 @@ run/
 dist
 public/
 package-lock.json
+.git/
 

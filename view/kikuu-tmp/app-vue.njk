@@ -1,7 +1,7 @@
 {% extends 'widget/layout/kikuu-tmp-app.njk' %}
 
 {% block main %}
-  <div class="content">
-    this content of example-html
+  <div class="content" id="app">
+    <div v-html="data1"></div>
   </div>
 {% endblock %}
