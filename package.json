@@ -40,7 +40,7 @@
   "scripts": {
     "build": "cross-env easy build prod",
     "build:dev": "cross-env easy build dev",
-    "start" : "cross-env NODE_SERVER=true NODE_ENV=development node build",
+    "start": "cross-env NODE_SERVER=true NODE_ENV=development node build",
     "lint": "eslint .",
     "fix": "eslint --fix .",
     "test": "mocha test",

@@ -1,1 +1,1 @@
-import './app-static.less'
+import './app-static.less';
