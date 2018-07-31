@@ -1,70 +1,35 @@
-# kikuu-multiple-html
+# kikuu-template
 
-KIKUU静态多页面Webpack构建工程化解决方案骨架
+## 项目介绍
+KiKUU 日常支持页面
 
-## 特性
+## 软件架构
+软件架构说明
 
-- 支持 HTML 静态多页面构建
-- 支持 nunjucks 模板静态多页面构建
-- 支持 Webpack 构建自动刷新功能
-- 支持 VUE 部分引入（已内置）
-- 支持 babel, es6, postcss, eslint等特性
-- 支持 css, less（已内置）, styus 
-- 支持构建结果UI展示
-- 支持独立HTML模板和全局HTML模版
-- 支持 [easywebpack-cli](https://github.com/hubcarl/easywebpack-cli) 创建项目和构建
 
-更多特性请见 [基于 Webpack 的前端构建工程化解决方案](https://github.com/hubcarl/easywebpack)
+## 安装教程
 
-# 版本
-
-- easywebpack-html ^4.x.x > webpack 4.x.x 
-- easywebpack-html ^2.x.x > webpack 3.x.x 
-
-## 安装
+- 安装依赖
 
 ```bash
 npm install
 ```
+- 通过taobao源安装依赖
 
 ```bash
-npm install easywebpack-cli -g
+npm ii
 ```
 
-## 运行
+## 使用说明
 
-
-```bash
-npm start 
-
-// or
-easy start
-
-// or
-node build
-```
-
-
-## 编译
-
-```bash
-npm run build
-
-// or
-easy build prod 
-
-// or
-node build
-```
-
-## HTML模板
+#### HTML模板
 
 - 独立模板, Entry目录下面包含同名的HTML页面
 - 全局模板(entry.template), 没有独立模板时,将采用全局模板.
 
 HTML构建时, 首先取独立模板,如果文件存在,则使用独立模板, 否则取全局模板.
 
-## nunjucks
+#### nunjucks
 
 nunjucks loader 默认是禁用， 你可以通过如下方式开启：
 
@@ -80,8 +45,7 @@ module.exports = {
   },
 }
 ```
-
-## HTTP Proxy 
+#### HTTP Proxy 
 
 use [koa-proxy](https://github.com/popomore/koa-proxy) plugin proxy http request:
 
@@ -94,6 +58,28 @@ module.exports = {
   },
 }
 ```
+#### 打包
+
+通过执行   
+
+```bash
+npm run build:dev
+```
+来打包输出html及各个静态资源。
+
+### 参与贡献
+
+1. Fork 本项目
+2. 新建 Feat_xxx 分支
+3. 提交代码
+4. 新建 Pull Request
 
 
+### 码云特技
 
+1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
+2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
+3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
+4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
+5. 码云官方提供的使用手册 [http://git.mydoc.io/](http://git.mydoc.io/)
+6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
