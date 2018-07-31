@@ -39,8 +39,9 @@
   },
   "scripts": {
     "build": "cross-env easy build prod",
-    "build:dev": "cross-env easy build dev",
+    "build:dev": "cross-env UPLOAD_CDN=dev easy build dev",
     "start": "cross-env NODE_SERVER=true NODE_ENV=development node build",
+    "clean": "easy clean all",
     "lint": "eslint .",
     "fix": "eslint --fix .",
     "test": "mocha test",

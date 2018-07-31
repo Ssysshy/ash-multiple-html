@@ -1,3 +1,5 @@
+const UPLOAD_CDN = process.env.UPLOAD_CDN;
+
 module.exports = {
   framework: 'html',
   entry: {
@@ -33,8 +35,7 @@ module.exports = {
       }
     }
   },
-  publicPath: '',
-  cdn: '',
+  publicPath: UPLOAD_CDN === 'dev' ? '../../' : 'public',
   done() {
 
   }
