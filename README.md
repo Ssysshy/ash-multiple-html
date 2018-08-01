@@ -1,11 +1,40 @@
 # kikuu-template
 
-<<<<<<< HEAD
 ## 项目介绍
 KiKUU 日常支持页面
 
 ## 软件架构
-软件架构说明
+```aidl
+
+| -- page
+|     |-- app-static
+|            |-- app-static.html
+|            |-- app-static.js
+|            |-- app-static.less
+|     |--app-vue
+|     |--pc-static
+|     |--pc-vue
+| -- view
+|     |-- kikuu-tmp                             (主体内容编写)
+|            |-- app-static.njk  
+|            |-- app-vue.njk
+|            |-- pc-static.njk
+|            |-- pc-vue.njk
+|     |-- widget
+|            |-- base   
+|                   |-- kikuu-tmp-app.njk
+|                   |-- kikuu-tmp-pc.njk
+|            |-- footer
+|                   |-- kikuu-app-footer.njk
+|                   |-- kikuu-pc-footer.njk
+|            |-- header
+|                   |-- kikuu-app-header.njk
+|                   |-- kikuu-pc-header.njk
+|            |-- layout                        （通用结构）
+|                   |-- kikuu-tmp-app.njk
+|                   |-- kikuu-tmp-pc.njk
+```
+
 
 
 ## 安装教程
