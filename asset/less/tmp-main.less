@@ -1,0 +1,54 @@
+@import "./base.less";
+@import "./footer.less";
+@import "./header.less";
+
+@px2rem: 36;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: left;
+  box-sizing: border-box;
+  font-family: "PingFang SC", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Source Han Sans CN Normal", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  text-decoration: none;
+  appearance: none;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration:none;
+  cursor: pointer;
+}
+
+li,
+ol,
+ul {
+  list-style:none;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix:after{
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.content{
+  width: 100%;
+}

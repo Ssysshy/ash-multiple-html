@@ -1,0 +1,1 @@
+import './pc-static.less'

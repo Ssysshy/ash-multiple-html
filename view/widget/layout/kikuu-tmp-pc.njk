@@ -1,0 +1,8 @@
+{% extends 'widget/base/kikuu-tmp-pc.njk' %}
+{% block body %}
+    {% include 'widget/header/kikuu-pc-header.njk' %}
+    <div class="content">
+        {% block main %}{% endblock %}
+    </div>
+    {% include 'widget/footer/kikuu-pc-footer.njk' %}
+{% endblock %}
