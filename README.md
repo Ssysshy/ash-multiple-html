@@ -88,6 +88,12 @@ module.exports = {
   },
 }
 ```
+
+#### 启动
+```bash
+npm start
+```
+
 #### 打包
 
 通过执行   
